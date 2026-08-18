@@ -1,7 +1,8 @@
 
 export default function Contato() {
     return (
-        <main className="grow w-full min-h-screen bg-slate-50 px-4 md:px-8 pt-16 md:pt-20 pb-16">
+       
+       <main className="grow w-full min-h-screen bg-slate-50 px-4 md:px-8 pt-16 md:pt-20 pb-16">
 
             <div className="max-w-2xl mx-auto text-center mb-10">
                 <h1 className="text-4xl md:text-5xl font-extrabold text-blue-600">
