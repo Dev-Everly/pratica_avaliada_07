@@ -1,0 +1,27 @@
+import { Link } from "react-router-dom";
+
+ 
+
+function Navbar() {
+  return (
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/75 backdrop-blur-md border-b border-slate-200">
+      <nav className="flex items-center justify-between px-4 md:px-8 py-3 max-w-7xl mx-auto ">
+        
+          <img
+            className=" h-9 object-contain"
+            src="https://ik.imagekit.io/up25hc32q3/pratica%2007/logo_startup.svg"
+            alt="Imagem Logo"
+          />
+          
+        <div className="hidden md:flex items-center gap-2 ">
+          <Link to="/" className="px-3 py-1 text-slate-600 hover:text-blue-600 transition-colors  ">Home</Link>
+          <Link to="/sobre" className="px-3 py-1 text-slate-600 hover:text-blue-600 transition-colors">Sobre nós</Link>
+          <Link to="/contato" className="px-3 py-1 text-slate-600 hover:text-blue-600 transition-colors">Contato</Link>
+        </div>
+      
+      </nav>
+    </header>
+  );
+}
+
+export default Navbar    
